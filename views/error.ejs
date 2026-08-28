@@ -1,0 +1,16 @@
+<%- include("includes/head.ejs") %>
+<body class="dark-theme">
+    <%- include("includes/navbar.ejs") %>
+    
+    <main class="container error-container">
+        <div class="glass-card error-card">
+            <h1>404</h1>
+            <h2>Oops!</h2>
+            <p><%= message %></p>
+            <a href="/" class="btn btn-primary">Go Back Home</a>
+        </div>
+    </main>
+
+    <%- include("includes/footer.ejs") %>
+</body>
+</html>
