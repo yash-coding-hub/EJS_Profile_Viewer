@@ -1,0 +1,25 @@
+<%- include("includes/head.ejs") %>
+<body class="dark-theme">
+    <%- include("includes/navbar.ejs") %>
+
+    <main class="container">
+        <div class="directory-header">
+            <h1>Profile Directory</h1>
+            <p>Select a profile to view their details and posts.</p>
+        </div>
+
+        <div class="profile-grid">
+            <% for(let profile of profiles) { %>
+                <a href="/ig/<%= profile %>" class="glass-card profile-card-link">
+                    <div class="profile-card-content">
+                        <h3>@<%= profile %></h3>
+                        <span class="btn btn-outline">View Profile</span>
+                    </div>
+                </a>
+            <% } %>
+        </div>
+    </main>
+
+    <%- include("includes/footer.ejs") %>
+</body>
+</html>
