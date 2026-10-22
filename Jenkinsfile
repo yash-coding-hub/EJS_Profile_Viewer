@@ -38,5 +38,15 @@ pipeline {
                 }
             }
         }
+
+        stage('Deploy to Kubernetes') {
+            steps {
+                sh '''
+                    kubectl set image deployment/ejs-profile-viewer ejs-profile-viewer=$DOCKER_USER/ejs-profile-viewer:latest
+                    kubectl rollout status deployment/ejs-profile-viewer --timeout=120s
+                '''
+            }
+        }
     }
 }
+
