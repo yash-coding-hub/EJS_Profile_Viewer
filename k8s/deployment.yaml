@@ -16,4 +16,4 @@ spec:
         - name: ejs-profile-viewer
           image: yash7100/ejs-profile-viewer:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 8080
