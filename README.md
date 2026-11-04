@@ -1,4 +1,4 @@
-# Social Profile Viewer...Overview of the whole project:-
+# Social Profile Viewer...Overview of the complete project:-
 
 A modern, dynamic web application built with **Node.js, Express, and EJS**. This project serves as a dynamic directory of user profiles, rendering data dynamically with a premium glassmorphism dark-theme UI and also helps in understanding the use of ejs.
 
@@ -12,7 +12,7 @@ A modern, dynamic web application built with **Node.js, Express, and EJS**. This
 ## Tech Stack
 - **Backend**: Node.js, Express.js
 - **Frontend**: EJS (Embedded JavaScript), HTML5, Vanilla CSS3 (Custom Variables, Flexbox, Grid)
-- **Development Tooling**: Nodemon
+- Development Tooling: Nodemon
 
 ## Installation & Setup
 
